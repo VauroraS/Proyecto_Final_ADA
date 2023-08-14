@@ -77,10 +77,12 @@ body {
   .pagination span {
     margin: 0 5px;
     
+    
   }
   .pagination button{
     background-color: beige;
     border-radius: 5px;
+    padding: 5px;
   }
 
   .pagination button:disabled {
@@ -97,5 +99,6 @@ body {
     }
     .pagination button{
       margin: 5px;
+      padding: 5px;
     }
   }
