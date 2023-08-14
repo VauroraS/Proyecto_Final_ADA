@@ -84,6 +84,11 @@ body {
     border-radius: 5px;
     padding: 5px;
   }
+  .pagination button:hover{
+    box-shadow: 0 0 .5rem #999;
+    transform: 
+        scale(1.1);
+  }
 
   .pagination button:disabled {
     opacity: 0.5;
@@ -100,5 +105,10 @@ body {
     .pagination button{
       margin: 5px;
       padding: 5px;
+    }
+    .pagination button:hover{
+      box-shadow: 0 0 .5rem #999;
+      transform: 
+          scale(1.1);
     }
   }
