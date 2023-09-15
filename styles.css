@@ -66,7 +66,7 @@ body {
     margin-top: 10px;
   }
   
-  .pagination {
+  .pagination, .pages{
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -76,14 +76,30 @@ body {
   .pagination button,
   .pagination span {
     margin: 0 5px;
-    
-    
   }
-  .pagination button{
+  .pages button,
+  .pages span {
+    margin: 5px;
+  }
+  .pagination span, .pages label{
+    color: #999;
+  }
+
+  .pagination button {
     background-color: beige;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+  .pages button {
+    background-color: beige;
+    border: 2px solid #ccc;
     border-radius: 5px;
     padding: 5px;
+
   }
+
   .pagination button:hover{
     box-shadow: 0 0 .5rem #999;
     transform: 
@@ -96,19 +112,4 @@ body {
   }
   footer p {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-  }
-  @media (max-width: 768px) {
-    .pagination {
-      flex-direction: column;
-      align-items: center;
-    }
-    .pagination button{
-      margin: 5px;
-      padding: 5px;
-    }
-    .pagination button:hover{
-      box-shadow: 0 0 .5rem #999;
-      transform: 
-          scale(1.1);
-    }
   }
