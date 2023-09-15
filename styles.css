@@ -100,7 +100,7 @@ body {
 
   }
 
-  .pagination button:hover{
+  .pagination button:hover, .pages button:hover{
     box-shadow: 0 0 .5rem #999;
     transform: 
         scale(1.1);
